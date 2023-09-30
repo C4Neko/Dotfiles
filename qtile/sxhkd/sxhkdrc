@@ -1,0 +1,26 @@
+super + Escape
+    pkill -USR1 -x sxhkd
+
+super + shift + Return 
+  thunar
+
+#Rofi & dmenu
+
+super + d 
+  rofi -show drun
+  
+alt + p
+ rofi -show
+
+alt + x
+  clipmenu
+
+#Application Keybindings
+
+alt + w 
+  firefox
+
+alt + shift + w
+  firefox --private-window
+
+

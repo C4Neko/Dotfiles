@@ -1,0 +1,23 @@
+#Aliases 
+
+# Pacman Aliases
+alias in="sudo pacman -S"
+alias unin="sudo pacman -Rns"
+alias up="sudo pacman -Syu"
+
+# Git
+alias ga="git add ."
+alias gp="git put"
+alias gm="git commit"
+alias gn="git clone"
+
+alias reboot="systemctl reboot"
+
+# Configs
+alias n="nvim"
+alias al="nvim $HOME/.config/zsh/aliases.txt"
+alias qtconf="nvim ~/.config/qtile/config.py"
+
+alias cp="cp -r"
+alias rm="rm -rf"
+alias utar="tar -zxvf"
